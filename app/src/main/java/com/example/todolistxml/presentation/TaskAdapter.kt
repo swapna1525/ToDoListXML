@@ -1,4 +1,4 @@
-package com.example.todolistxml
+package com.example.todolistxml.presentation
 
 import android.os.Build
 import android.view.LayoutInflater
@@ -9,6 +9,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.annotation.RequiresApi
 import androidx.recyclerview.widget.RecyclerView
+import com.example.todolistxml.R
+import com.example.todolistxml.data.TaskModel
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
